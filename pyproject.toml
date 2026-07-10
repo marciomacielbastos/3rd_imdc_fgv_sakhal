@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "sprint-template"
+name = "repo-3rd-imdc-fgv-sakhal"
 version = "0.1.0"
-description = ""
-authors = ["Eduardo Correa Araujo <65051489+eduardocorrearaujo@users.noreply.github.com>"]
+description = "FGV Sakhal Bayesian hard-pulse dengue forecasts for IMDC 2026"
+authors = ["Sakhal Team"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,9 +10,16 @@ python = "<3.13,>=3.10"
 mosqlient = "1.5.2"
 epiweeks = "^2.3.0"
 jupyter = "^1.0.0"
-pmdarima = "^2.0.4"
 python-dotenv = "^1.0.1"
-
+jax = "^0.4.28"
+jaxlib = "^0.4.28"
+numpyro = "^0.15.0"
+numpy = "^1.26.0"
+pandas = "^2.2.0"
+matplotlib = "^3.8.0"
+scipy = "^1.11.0"
+scikit-learn = "^1.4.0"
+pyarrow = "^15.0.0"
 
 [build-system]
 requires = ["poetry-core"]
